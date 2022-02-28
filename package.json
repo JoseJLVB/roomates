@@ -1,0 +1,19 @@
+{
+  "name": "roomates",
+  "version": "1.0.0",
+  "description": "roomates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJLVB/roomates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseJLVB/roomates/issues"
+  },
+  "homepage": "https://github.com/JoseJLVB/roomates#readme"
+}
