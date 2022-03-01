@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/JoseJLVB/roomates/issues"
   },
-  "homepage": "https://github.com/JoseJLVB/roomates#readme"
+  "homepage": "https://github.com/JoseJLVB/roomates#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
 }
