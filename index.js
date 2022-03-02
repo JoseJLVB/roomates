@@ -13,7 +13,7 @@ app.use( express.urlencoded({ extended: true }) );
 
 app.get('/gastos', async (req, res) => {
     let db = await fs.readFile('db.json', 'utf-8')
-    db = JSON.parse(database)
+    db = JSON.parse(db)
     let gastos = db.gastos
     res.send({gastos})
 });
@@ -92,8 +92,8 @@ app.put('/gasto', async (req, res)=> {
 
         await fs.writeFile('db.json', JSON.stringify(db), 'utf-8') 
         res.send({todo:'ok'})
-    })
-})
+    });
+});
 
 app.delete('/gasto', async(req, res) => {
     const id = req.query.id;
